@@ -15,7 +15,7 @@
     
     
     
-    <con:savedRecentRuns>1</con:savedRecentRuns><con:requirements/>
+    <con:vcsConfiguration><con:vcsName>Git</con:vcsName><con:repositoryIdentifier>https://github.com/Alexander-Linkov/sample-repository.git</con:repositoryIdentifier></con:vcsConfiguration><con:savedRecentRuns>1</con:savedRecentRuns><con:requirements/>
     <con:properties>
         <con:property>
             <con:name>Some Property</con:name>
