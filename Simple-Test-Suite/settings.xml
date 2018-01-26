@@ -19,7 +19,7 @@
             <con:setting id="IncludeCoverage">true</con:setting>
             <con:setting id="ReportTitle">Default Title</con:setting>
         <con:setting id="21163bcc-d79b-43c4-b47b-e9a9e4465539fileName">Simple-Test-Suite</con:setting></con:settings>
-        <con:runType>SEQUENTIAL</con:runType>
+        <con:savedRecentRuns>1</con:savedRecentRuns><con:runType>SEQUENTIAL</con:runType>
         
         
         
