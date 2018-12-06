@@ -21,7 +21,7 @@
         <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
         <con:jmsPropertyConfig/>
         <con:parameters>
-          <entry key="status" value="available" xmlns="http://eviware.com/soapui/config"/>
+          <entry key="status" value="${#Project#pet-status}" xmlns="http://eviware.com/soapui/config"/>
         </con:parameters>
       </con:restRequest>
     </con:config>
