@@ -7,7 +7,7 @@
   <con:properties>
     <con:property>
       <con:name>pet-status</con:name>
-      <con:value>sold</con:value>
+      <con:value>available</con:value>
     </con:property>
     <con:property>
       <con:name>petId</con:name>
