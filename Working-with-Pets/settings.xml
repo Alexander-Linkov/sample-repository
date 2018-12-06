@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testSuite id="0ee1ca92-ed32-42b5-96f3-70caf0574894" name="Working with Pets" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="0ee1ca92-ed32-42b5-96f3-70caf0574894fileName">Working-with-Pets</con:setting>
+  </con:settings>
+  <con:runType>SEQUENTIAL</con:runType>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testSuite>

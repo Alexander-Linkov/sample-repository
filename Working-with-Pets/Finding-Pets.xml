@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="f30b335a-090c-4f94-b358-31d0bffbb28d" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="Finding Pets" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="f30b335a-090c-4f94-b358-31d0bffbb28dfileName">Finding-Pets</con:setting>
+  </con:settings>
+  <con:savedRecentRuns>1</con:savedRecentRuns>
+  <con:testStep type="restrequest" name="findPetsByStatus" id="aa80295e-295f-4c38-93b0-2bc8d963f5db">
+    <con:settings/>
+    <con:config service="Swagger Petstore" resourcePath="/v2/pet/findByStatus" methodName="findPetsByStatus" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="findPetsByStatus" id="04d7561a-13d6-4714-bb1f-3b17b875a8a3" mediaType="application/json">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+        </con:settings>
+        <con:endpoint>http://petstore.swagger.io</con:endpoint>
+        <con:request/>
+        <con:originalUri>http://petstore.swagger.io/v2/pet/findByStatus</con:originalUri>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:jmsPropertyConfig/>
+        <con:parameters>
+          <entry key="status" value="available" xmlns="http://eviware.com/soapui/config"/>
+        </con:parameters>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testCase>
