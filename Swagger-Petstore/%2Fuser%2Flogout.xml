@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="/user/logout" path="/user/logout" id="54c556ea-0424-4eac-8ae2-a496f0848538" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="54c556ea-0424-4eac-8ae2-a496f0848538fileName">%2Fuser%2Flogout</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="logoutUser" id="3c9e9b71-0217-4579-bd84-5eaaa307a1f8" method="GET">
+    <con:description>Logs out current logged in user session</con:description>
+    <con:settings/>
+    <con:parameters/>
+    <con:representation type="RESPONSE">
+      <con:mediaType>application/xml</con:mediaType>
+      <con:status/>
+      <con:params/>
+    </con:representation>
+    <con:representation type="RESPONSE">
+      <con:mediaType>application/json</con:mediaType>
+      <con:status/>
+      <con:params/>
+    </con:representation>
+    <con:request name="Request 1" id="cabf64da-293f-4046-9862-a37908265e54" mediaType="application/json">
+      <con:settings/>
+      <con:endpoint>http://petstore.swagger.io</con:endpoint>
+      <con:parameters/>
+    </con:request>
+  </con:method>
+</con:resource>
