@@ -9,6 +9,10 @@
       <con:name>pet-status</con:name>
       <con:value>sold</con:value>
     </con:property>
+    <con:property>
+      <con:name>petId</con:name>
+      <con:value>123456</con:value>
+    </con:property>
   </con:properties>
   <con:wssContainer/>
   <con:databaseConnectionContainer/>
