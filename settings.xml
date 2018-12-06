@@ -4,7 +4,12 @@
     <con:setting id="af6f64cb-ddc7-4e03-9774-6f2e3b1ffabcfileName">Composite-Petstore-Project</con:setting>
   </con:settings>
   <con:savedRecentRuns>1</con:savedRecentRuns>
-  <con:properties/>
+  <con:properties>
+    <con:property>
+      <con:name>pet-status</con:name>
+      <con:value>sold</con:value>
+    </con:property>
+  </con:properties>
   <con:wssContainer/>
   <con:databaseConnectionContainer/>
   <con:jmsConnectionContainer/>
