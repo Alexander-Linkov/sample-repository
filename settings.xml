@@ -11,7 +11,7 @@
     </con:property>
     <con:property>
       <con:name>petId</con:name>
-      <con:value>654321</con:value>
+      <con:value>123456</con:value>
     </con:property>
   </con:properties>
   <con:wssContainer/>
