@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="9e29c483-6f0b-43f6-933d-afd10422ebce" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="Create user" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="9e29c483-6f0b-43f6-933d-afd10422ebcefileName">Create-user</con:setting>
+  </con:settings>
+  <con:testStep type="restrequest" name="Create user" id="5b4716c7-95d6-468b-82d9-14de7defe9a3">
+    <con:settings/>
+    <con:config service="Swagger Petstore" resourcePath="/v2/user" methodName="createUser" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="Create user" id="9224bb47-43a9-4a0b-9f42-c45a288a8ec0" mediaType="application/json" postQueryString="false">
+        <con:settings/>
+        <con:endpoint>http://petstore.swagger.io</con:endpoint>
+        <con:request/>
+        <con:assertion type="Valid HTTP Status Codes" id="09c56ad5-fb48-4e3d-88e5-c3b86be6531b" name="Valid HTTP Status Codes">
+          <con:settings/>
+          <con:configuration>
+            <codes>200</codes>
+          </con:configuration>
+        </con:assertion>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:parameters/>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testCase>
