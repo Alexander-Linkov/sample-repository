@@ -19,7 +19,7 @@ Create user</con:description>
       <con:status/>
       <con:params/>
     </con:representation>
-    <con:request name="Request 1" id="9224bb47-43a9-4a0b-9f42-c45a288a8ec0" mediaType="application/json">
+    <con:request name="Request 1" id="9224bb47-43a9-4a0b-9f42-c45a288a8ec0" mediaType="application/json" postQueryString="false">
       <con:settings/>
       <con:endpoint>http://petstore.swagger.io</con:endpoint>
       <con:request/>

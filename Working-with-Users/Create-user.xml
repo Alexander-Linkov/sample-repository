@@ -7,9 +7,19 @@
     <con:settings/>
     <con:config service="Swagger Petstore" resourcePath="/v2/user" methodName="createUser" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <con:restRequest name="Create user" id="9224bb47-43a9-4a0b-9f42-c45a288a8ec0" mediaType="application/json" postQueryString="false">
-        <con:settings/>
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+        </con:settings>
         <con:endpoint>http://petstore.swagger.io</con:endpoint>
-        <con:request/>
+        <con:request>{
+  "username": "John.Smith",
+  "firstName": "John",
+  "lastName": "Smith",
+  "email": "John.Smith@example.com",
+  "password": "p@ssw0rd",
+  "phone": "111",
+  "userStatus": 1
+}</con:request>
         <con:assertion type="Valid HTTP Status Codes" id="09c56ad5-fb48-4e3d-88e5-c3b86be6531b" name="Valid HTTP Status Codes">
           <con:settings/>
           <con:configuration>
