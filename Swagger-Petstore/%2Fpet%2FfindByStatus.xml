@@ -12,7 +12,10 @@ Finds Pets by status</con:description>
       <con:parameter required="true">
         <con:name>status</con:name>
         <con:style>QUERY</con:style>
-        <con:dataType>array</con:dataType>
+        <con:dataType>string</con:dataType>
+        <con:option>available</con:option>
+        <con:option>sold</con:option>
+        <con:option>pending</con:option>
         <con:description>Status values that need to be considered for filter</con:description>
       </con:parameter>
     </con:parameters>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:soapui-project id="af6f64cb-ddc7-4e03-9774-6f2e3b1ffabc" created="2.6.0-SNAPSHOT" activeEnvironment="Default environment" name="Composite-Petstore-Project" resourceRoot="" compositeProjectFormat="1.3" updated="2.8.1-SNAPSHOT" encryptionMode="Not encrypted" xmlns:con="http://eviware.com/soapui/config">
+<con:soapui-project id="af6f64cb-ddc7-4e03-9774-6f2e3b1ffabc" created="2.6.0-SNAPSHOT" activeEnvironment="Default environment" name="Composite-Petstore-Project" resourceRoot="" compositeProjectFormat="1.3" updated="3.8.1" encryptionMode="Not encrypted" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="af6f64cb-ddc7-4e03-9774-6f2e3b1ffabcfileName">Composite-Petstore-Project</con:setting>
   </con:settings>
