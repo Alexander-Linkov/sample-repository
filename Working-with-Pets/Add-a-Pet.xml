@@ -3,6 +3,7 @@
   <con:settings>
     <con:setting id="0396e883-bc26-4ec0-b7b2-a12f3d528a38fileName">Add-a-Pet</con:setting>
   </con:settings>
+  <con:savedRecentRuns>1</con:savedRecentRuns>
   <con:testStep type="restrequest" name="REST Request" id="67a50d08-615f-4806-ac9c-f652c2eeb892">
     <con:settings/>
     <con:config service="Swagger Petstore" resourcePath="/v2/pet" methodName="addPet" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">

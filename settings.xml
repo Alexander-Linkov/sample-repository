@@ -19,6 +19,7 @@
     <con:settings/>
   </con:loadUITests>
   <con:savedRecentRuns>1</con:savedRecentRuns>
+  <con:requirements/>
   <con:properties>
     <con:property>
       <con:name>pet-status</con:name>
